@@ -29,3 +29,7 @@ jobs:
         run: |
           echo ${{secrets.MY_AGE}}
           echo ${{secrets.MY_PAY}}
+      - name: 그냥 변수
+        run: |
+          echo ${{vars.MY_HEIGHT}}
+          echo ${{vars.MY_GRADE}}
