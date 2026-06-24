@@ -8,6 +8,7 @@ class CicdSpringboot01ApplicationTests {
 
     @Test
     void contextLoads() {
+        throw new RuntimeException("Error!!");
     }
 
 }
